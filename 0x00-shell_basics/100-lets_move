@@ -1,2 +1,2 @@
 #!/bin/bash
-mv -rua [[:upper:]]* /tmp/u
+find . -name '[[:upper]]*' -exec mv -t ~t ~/tmp/u {} +
